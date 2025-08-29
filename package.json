@@ -1,0 +1,38 @@
+{
+  "name": "outbreak-cli",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "keywords": [
+    "cli",
+    "nodejs",
+    "automation",
+    "developer-tools",
+    "file-generator",
+    "outbreak"
+  ],
+  "author": "Nikhil Mishra <outbreak@gmail.com>",
+  "license": "MIT",
+  "description": "🚀 Outbreak CLI - A fast, customizable developer command-line tool to scaffold nodejs projects, automate tasks, and boost productivity.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NikhilMishra/outbreak-cli.git"
+  },
+  "homepage": "https://github.com/NikhilMishra/outbreak-cli#readme",
+  "bugs": {
+    "url": "https://github.com/NikhilMishra/outbreak-cli/issues"
+  },
+  "bin": {
+    "outbreak": "app.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "execa": "^9.6.0",
+    "fs-extra": "^11.3.1",
+    "picocolors": "^1.1.1"
+  }
+}

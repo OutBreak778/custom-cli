@@ -13,9 +13,11 @@ npx outbreak
 ```
 
 or to install it globally
+```
 npm install -g outbreak
+```
 
-Usage CLI
+### Usage CLI
 npx outbreak
 
 It will:
@@ -31,7 +33,10 @@ npm run dev
 
 Features
 
-✅ Quick project scaffolding
+✅ Quick project scaffolding 
+
 ✅ Customizable folder selection
+
 ✅ Installs common Node.js dependencies
+
 ✅ Works without global install via npx

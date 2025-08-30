@@ -9,7 +9,6 @@ A fast, customizable command-line tool to scaffold Node.js projects with a singl
 You can run directly using npx:
 
 ```
-bash
 npx outbreak
 ```
 

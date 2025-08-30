@@ -42,7 +42,7 @@ process.on("SIGINT", () => {
 `;
 
 async function main() {
-  intro(color.bgCyan(color.black(" Welcome to Nikhil Mishra CLI ")));
+    intro(color.bgCyan(color.black(" Welcome to Nikhil Mishra CLI ")));
 
   // Ask for folder name
   const folderName = await text({
@@ -142,12 +142,10 @@ async function main() {
     `);
 
     outro(color.green("✨ Setup complete. Happy coding!"));
-
-  } catch (err) {
-    s.stop("❌ Error during setup.");
-    log.error(err.message);
-    process.exit(1);
-  }
+    } catch(error) {
+        console.log(error)
+        process.exit(1)
+    }
 }
 
 await main();

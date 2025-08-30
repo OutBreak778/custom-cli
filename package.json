@@ -1,6 +1,6 @@
 {
-  "name": "outbreak-cli",
-  "version": "1.0.0",
+  "name": "foldera",
+  "version": "2.0.0",
   "main": "app.js",
   "type": "module",
   "scripts": {
@@ -13,21 +13,18 @@
     "automation",
     "developer-tools",
     "file-generator",
-    "outbreak"
+    "foldera"
   ],
-  "author": "Nikhil Mishra <outbreak@gmail.com>",
+  "author": "Nikhil Mishra <outbreak778@gmail.com>",
   "license": "MIT",
-  "description": "🚀 Outbreak CLI - A fast, customizable developer command-line tool to scaffold nodejs projects, automate tasks, and boost productivity.",
+  "description": "🚀 Outbreak CLI - A fast, customizable developer command-line tool to scaffold nodejs projects, and boost productivity.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NikhilMishra/outbreak-cli.git"
+    "url": "git+https://github.com/outbreak778/custom-cli.git"
   },
-  "homepage": "https://github.com/NikhilMishra/outbreak-cli#readme",
-  "bugs": {
-    "url": "https://github.com/NikhilMishra/outbreak-cli/issues"
-  },
+  "homepage": "https://github.com/outbreak778/custom-cli#readme",
   "bin": {
-    "outbreak": "app.js"
+    "foldera": "app.js"
   },
   "dependencies": {
     "@clack/prompts": "^0.11.0",
